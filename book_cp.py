@@ -48,6 +48,6 @@ def usage():
     
 if __name__=='__main__':
     if len(sys.argv)!=3
-        usage
+        usage()
     scrDir, dstDir = sys.argv[1], sys.argv[2]
     autoBackup(scrDir, dstDir)
